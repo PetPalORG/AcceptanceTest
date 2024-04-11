@@ -1,4 +1,4 @@
-Feature: US-24: Visualizar una landing page atractiva
+Feature: US-21: Visualizar una landing page atractiva
 
     Como visitante del landing page
     Quiero visualizar una landing page clara y atractiva

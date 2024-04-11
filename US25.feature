@@ -1,4 +1,4 @@
-Feature: US-24: Sección "Nosotros"
+Feature: US-25: Sección "Nosotros"
 
     Como visitante del landing page
     Quiero poder acceder a la sección “Nosotros”
