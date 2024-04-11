@@ -1,15 +1,15 @@
-Feature: US-21: Visualizar una landing page atractiva
+Feature: US-21: Acceder desde cualquier dispositivo a la landing page
 
     Como visitante del landing page
-    Quiero visualizar una landing page clara y atractiva
-    Para entender el propósito de la aplicación
+    Quiero que sea accesible desde diferentes dispositivos
+    Para poder ingresar al sitio web desde cualquier dispositivo
 
-  Scenario: Landing page clara y atractiva
-    Given el visitante ve la landing page con imágenes, videos e información relevante
-    When complete el proceso de registro y login
-    Then será redirigido a la aplicación web
+  Scenario: Accesibilidad desde diferentes dispositivos
+    Given el usuario es un visitante del landing page
+    When acceda al sitio web desde un dispositivo diferente (móvil, tablet, PC)
+    Then debería poder visualizar la página correctamente en cualquier dispositivo
 
-  Scenario: Acceso al landing page, pero no es responsive con cualquier dispositivo
-    Given el usuario está ingresando al landing page desde otro dispositivo
-    When revise la información y lo note desordenado y desagradable para la vista
-    Then cierra nuestra landing page y se dedica a seguir navegando por internet
+  Scenario: Acceso fácil desde cualquier lugar
+    Given el usuario es un visitante del landing page
+    When intente acceder al sitio web desde mi dispositivo habitual
+    Then debería poder ingresar a la página de PetPal desde cualquier lugar y dispositivo
